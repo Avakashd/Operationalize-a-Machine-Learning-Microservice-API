@@ -9,6 +9,7 @@ dockerpath=avakashd/development
 
 # Step 2:  
 # Authenticate & tag
+docker login --username dockerwebtraining --password-stdin
 echo "Docker ID and Image: $dockerpath"
 docker tag 9321c033a075 $dockerpath
 
